@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B85449BE-0DCF-41C7-AEA8-2E748797305B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NaNoGenMo</RootNamespace>
+    <AssemblyName>NaNoGenMo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Word.cs" />
+    <Compile Include="Prosebreaker.cs" />
+    <Compile Include="Vocabulary.cs" />
+    <Compile Include="VocabWord.cs" />
+    <Compile Include="Novel.cs" />
+    <Compile Include="Page.cs" />
+    <Compile Include="Paragraph.cs" />
+    <Compile Include="Sentence.cs" />
+    <Compile Include="Stat.cs" />
+    <Compile Include="Grammar.cs" />
+    <Compile Include="Outline.cs" />
+    <Compile Include="Choice.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="DiscoveredChar.cs" />
+    <Compile Include="Section.cs" />
+    <Compile Include="Label.cs" />
+    <Compile Include="SectionEnd.cs" />
+    <Compile Include="Option.cs" />
+    <Compile Include="StatCheck.cs" />
+    <Compile Include="Architect.cs" />
+    <Compile Include="Ending.cs" />
+    <Compile Include="Chapter.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

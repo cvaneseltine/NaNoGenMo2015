@@ -1,0 +1,23 @@
+*title And soft most! 
+*author Carolyn VanEseltine's 2015 NaNoGenMo project
+*scene_list
+	chapter1
+	chapter2
+	chapter3
+	chapter4
+	chapter5
+	chapter6
+	chapter7
+	chapter8
+	chapter9
+	chapter10
+
+*create critical 50
+*create anthropomorphic 0
+*create hurried 50
+*create exhaustive 0
+*create Washington_s 50
+*create B_Rank 50
+*create Mara_bee 50
+*create Bottleman 50
+*create Favre 50

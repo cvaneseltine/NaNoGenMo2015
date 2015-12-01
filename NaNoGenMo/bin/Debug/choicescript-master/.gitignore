@@ -1,0 +1,16 @@
+choicescript.zip
+revision.txt
+web/version.js
+android/assets
+android/bin
+android/gen
+iphone/build
+iphone/www
+*.pbxuser
+*.mode1v3
+*/.DS_Store
+.DS_Store
+*.svn
+randomtest-output.txt
+xmloutput
+deploy

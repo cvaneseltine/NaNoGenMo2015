@@ -1,0 +1,11 @@
+Your current status....
+*stat_chart
+	percent critical
+	text anthropomorphic
+	percent hurried
+	text exhaustive
+	percent Washington_s
+	percent B_Rank
+	percent Mara_bee
+	percent Bottleman
+	percent Favre
